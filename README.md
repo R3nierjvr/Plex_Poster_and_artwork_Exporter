@@ -121,27 +121,43 @@ powershell
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ```
 
-### ✅ Linux Equivalent
-Using Tkinter, which works on most Linux distros without extra setup.
+# ✅ Linux Equivalent
+### 🎞️ Plex Poster Exporter for Linux
+A lightweight GUI tool to export posters and fanart from your Plex Media Server library — now built for Linux users using Python and Tkinter!
+
+- ✨ Features
+- 🧠 Easy-to-use graphical interface (no terminal usage required)
+- 🔐 Works with your Plex server token and library name
+- 🖼️ Automatically saves poster.jpg and fanart.jpg into each media's folder
+- 📊 Real-time export progress with status updates
+- ✅ Fully compatible with most modern Linux distributions
+
 ---------------------------------------------------------  
 
-> [!CAUTION]
-> I have not tested this and take no responsibilty for any issues that you may get
-
-### 🔧 Dependencies (Linux)
-You’ll need to install:
+### 📦 Requirements
+Make sure Python 3 and pip are installed:
 
 bash
-
 ```
 sudo apt update
 sudo apt install python3 python3-pip -y
+```  
+Install required Python libraries:
+bash
+```
 pip3 install plexapi requests
 ```
 
-Grab the `plex_exporter.py` from the releases Tab
+### 🚀 How to Run
+1. Clone the repository:
+   
+bash
+```
+git clone https://github.com/yourusername/plex-poster-exporter-linux.git
+cd plex-poster-exporter-linux
+```
 
-Run:
+2. Start the GUI:
 
 bash
 ```
