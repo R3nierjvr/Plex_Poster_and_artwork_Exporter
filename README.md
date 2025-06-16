@@ -1,4 +1,4 @@
-# 📦 Plex Poster Exporter – v1.0  
+![image](https://github.com/user-attachments/assets/a916c7c1-28da-44ba-9bdc-9cfcb3297ddb)# 📦 Plex Poster Exporter for Windows – v1.0  
 Plex Poster Exporter is a lightweight Windows GUI tool that allows you to automatically export poster and fanart images from your Plex libraries. Built with PowerShell and Python, it provides an intuitive interface and requires no prior scripting experience.
 The Posters Export Directly to you media files, this script was made so you don't lose all those Custom posters that you have put so much work into. This works great once all is exported and plex is setup to use local assets first
 
@@ -12,12 +12,12 @@ The Posters Export Directly to you media files, this script was made so you don'
 - ❌ No PowerShell window shown during execution 
 
 ### 🛠️ System Requirements
-- Windows 10 or newer (Untested Linux version available)
+- Windows 10 or newer
 - A running Plex Media Server
 - Plex token (retrieve via browser dev tools or a supported token retriever)
 
 > [!CAUTION]
-> This was made for windows users as I do not have linux experience, i have added a linux version but it has not been tested
+> This was made for windows, i have added a linux version [here](https://github.com/R3nierjvr/Plex_Poster_and_artwork_Exporter/tree/Linux) 
 > I have run  this for myself and have had no issues , I do no take responsibilty if you lose artwork , test this first on a test library if you feel the need
 
 ![image](https://github.com/user-attachments/assets/4c310022-1849-4781-8e5b-d7d15a995d99)
@@ -119,49 +119,6 @@ If you experience issues connecting, verify:
 powershell
 ```
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
-```
-
-# ✅ Linux Equivalent
-### 🎞️ Plex Poster Exporter for Linux
-A lightweight GUI tool to export posters and fanart from your Plex Media Server library — now built for Linux users using Python and Tkinter!
-
-- ✨ Features
-- 🧠 Easy-to-use graphical interface (no terminal usage required)
-- 🔐 Works with your Plex server token and library name
-- 🖼️ Automatically saves poster.jpg and fanart.jpg into each media's folder
-- 📊 Real-time export progress with status updates
-- ✅ Fully compatible with most modern Linux distributions
-
----------------------------------------------------------  
-
-### 📦 Requirements
-Make sure Python 3 and pip are installed:
-
-bash
-```
-sudo apt update
-sudo apt install python3 python3-pip -y
-```  
-Install required Python libraries:
-bash
-```
-pip3 install plexapi requests
-```
-
-### 🚀 How to Run
-1. Clone the repository:
-   
-bash
-```
-git clone  -b Linux --single-branch https://github.com/R3nierjvr/Plex_Poster_and_artwork_Exporter.git
-cd Plex_Poster_and_artwork_Exporter
-```
-
-2. Start the GUI:
-
-bash
-```
-python3 plex_exporter.py
 ```
 
 # 📣 Feedback
