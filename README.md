@@ -1,7 +1,8 @@
-📦 Plex Poster Exporter – v1.0
+# 📦 Plex Poster Exporter – v1.0  
 Plex Poster Exporter is a lightweight Windows GUI tool that allows you to automatically export poster and fanart images from your Plex libraries. Built with PowerShell and Python, it provides an intuitive interface and requires no prior scripting experience.
 
-🚀 Features
+
+### 🚀 Features
 - ✅ Simple, clean Windows GUI (PowerShell WinForms) 
 - 🔍 Scan Plex libraries to count media items 
 - 🖼️ Export high-quality poster.jpg and fanart.jpg to each item's directory 
@@ -10,7 +11,7 @@ Plex Poster Exporter is a lightweight Windows GUI tool that allows you to automa
 - 🖥️ Desktop shortcut created after install 
 - ❌ No PowerShell window shown during execution 
 
-🛠️ System Requirements
+### 🛠️ System Requirements
 - Windows 10 or newer
 - A running Plex Media Server
 - Plex token (retrieve via browser dev tools or a supported token retriever)
@@ -34,7 +35,7 @@ Instalation / Usage
 
 > Once you meet below requirements Just run the EXE or open the script with powershell
 
-✅ 1. Python Installed
+### ✅ 1. Python Installed
 - Must be installed on the system.
 - python command must work from any terminal (i.e., Python is added to the system PATH).
 
@@ -45,7 +46,7 @@ python --version
 
 ---------------------------------------------------------  
 
-✅ 2. Python Libraries Installed
+### ✅ 2. Python Libraries Installed
 - You need the following Python packages installed:
 
 ```
@@ -58,7 +59,7 @@ pip install plexapi requests
 
 ---------------------------------------------------------  
 
-✅ 3. Plex Server Running & Accessible
+### ✅ 3. Plex Server Running & Accessible
 - Your Plex Media Server must be running.
 - It must be accessible from the machine where the script is run (e.g., `http://localhost:32400`).
 - You must use a valid Plex token and a correct library name.
@@ -71,28 +72,28 @@ pip install plexapi requests
 
 ---------------------------------------------------------  
 
-✅ 4. PowerShell Requirements
+### ✅ 4. PowerShell Requirements
 - PowerShell 5.1+ (comes with Windows 10/11)
 - GUI support via  `System.Windows.Forms ` and  `System.Drawing ` (standard on Windows)
 
 
 ---------------------------------------------------------  
 
-✅ 5. File System Access
+### ✅ 5. File System Access
 - The user must have permission to write image files (`poster.jpg`, `fanart.jpg`) into the media folders.
 - If the media is on a NAS or external drive, PowerShell and Python must have write access.
 
 
 ---------------------------------------------------------  
 
-✅ Optional but Recommended
+### ✅ Optional but Recommended
 - Run the script as administrator if you expect to write to protected folders.
 - Keep .NET Framework 4.7+ installed (used by Windows Forms behind the scenes).
 
 
 ---------------------------------------------------------  
 
-❌ Will Not Work If:
+### ❌ Will Not Work If:
 - Python or required packages are missing.
 - Incorrect token or library name is entered.
 - Your media folder is read-only.
@@ -101,7 +102,7 @@ pip install plexapi requests
 
 ---------------------------------------------------------  
 
-🔧 If PowerShell Blocks the Script
+### 🔧 If PowerShell Blocks the Script
 
 > Run this in an elevated PowerShell:
 
