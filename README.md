@@ -12,12 +12,12 @@ The Posters Export Directly to you media files, this script was made so you don'
 - ❌ No PowerShell window shown during execution 
 
 ### 🛠️ System Requirements
-- Windows 10 or newer
+- Windows 10 or newer (Untested Linux version available)
 - A running Plex Media Server
 - Plex token (retrieve via browser dev tools or a supported token retriever)
 
 > [!CAUTION]
-> This was made for windows users as I do not have linux experience
+> This was made for windows users as I do not have linux experiencen, i have added a linux version but it has not been tested
 > I have run  this for myself and have had no issues , I do no take responsibilty if you lose artwork , test this first on a test library if you feel the need
 
 ![image](https://github.com/user-attachments/assets/4c310022-1849-4781-8e5b-d7d15a995d99)
@@ -119,6 +119,33 @@ If you experience issues connecting, verify:
 powershell
 ```
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+```
+
+### ✅ Linux Equivalent
+Using Tkinter, which works on most Linux distros without extra setup.
+---------------------------------------------------------  
+
+> [!CAUTION]
+> I have not tested this and take no responsibilty for any issues that you may get
+
+### 🔧 Dependencies (Linux)
+You’ll need to install:
+
+bash
+
+```
+sudo apt update
+sudo apt install python3 python3-pip -y
+pip3 install plexapi requests
+```
+
+Grab the `plex_exporter.py` from the releases Tab
+
+Run:
+
+bash
+```
+python3 plex_exporter.py
 ```
 
 # 📣 Feedback
