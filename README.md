@@ -8,7 +8,9 @@ A lightweight GUI tool to export posters and fanart from your Plex Media Server 
 - 🖼️ Automatically saves poster.jpg and fanart.jpg into each media's folder
 - 📊 Real-time export progress with status updates
 - ✅ Fully compatible with most modern Linux distributions
-
+- 
+## 🔒 Your Data
+This tool runs entirely on your PC and connects only to your own Plex server using the URL and token you provide. No external tracking or internet-based services are used.
 ---------------------------------------------------------  
 
 ### 📦 Requirements
