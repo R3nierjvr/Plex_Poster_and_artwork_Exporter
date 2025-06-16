@@ -153,8 +153,8 @@ pip3 install plexapi requests
    
 bash
 ```
-git clone https://github.com/yourusername/plex-poster-exporter-linux.git
-cd plex-poster-exporter-linux
+git clone -b git  v1.0.0-Linux --single-branch https://github.com/R3nierjvr/Plex_Poster_and_artwork_Exporter.git
+cd Plex_Poster_and_artwork_Exporter
 ```
 
 2. Start the GUI:
