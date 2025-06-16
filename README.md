@@ -1,6 +1,6 @@
 # 📦 Plex Poster Exporter – v1.0  
 Plex Poster Exporter is a lightweight Windows GUI tool that allows you to automatically export poster and fanart images from your Plex libraries. Built with PowerShell and Python, it provides an intuitive interface and requires no prior scripting experience.
-
+The Posters Export Directly to you media files, this script was made so you don't lose all those Custom posters that you have put so much work into. This works great once all is exported and plex is setup to use local assets first
 
 ### 🚀 Features
 - ✅ Simple, clean Windows GUI (PowerShell WinForms) 
