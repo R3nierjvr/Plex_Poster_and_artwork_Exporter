@@ -30,6 +30,10 @@ Includes Live Feedback and Progress bar
 > [!IMPORTANT]
 > I have added both and exe and a PS1 file . I just don't like blue powershell windows running when just running the script :)
 
+
+## 🔒 Your Data
+This tool runs entirely on your PC and connects only to your own Plex server using the URL and token you provide. No external tracking or internet-based services are used.
+
 Instalation / Usage
 ---------------------------------------------------------  
 
@@ -102,6 +106,12 @@ pip install plexapi requests
 
 ---------------------------------------------------------  
 
+## 🐛 Troubleshooting
+If you experience issues connecting, verify:
+- Your Plex URL is accessible (e.g., http://localhost:32400)
+- Your token is valid
+- The library name matches your Plex library exactly
+  
 ### 🔧 If PowerShell Blocks the Script
 
 > Run this in an elevated PowerShell:
@@ -110,3 +120,6 @@ powershell
 ```
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ```
+
+# 📣 Feedback
+Found a bug or have a feature request? Please open an issue or discussion – we welcome feedback and contributions!
