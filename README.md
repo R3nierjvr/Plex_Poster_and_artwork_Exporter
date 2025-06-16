@@ -12,6 +12,9 @@ A lightweight GUI tool to export posters and fanart from your Plex Media Server 
 ## 🔒 Your Data
 This tool runs entirely on your PC and connects only to your own Plex server using the URL and token you provide. No external tracking or internet-based services are used.
 ---------------------------------------------------------  
+# Screenshots  
+
+![image](https://github.com/user-attachments/assets/4dd6187a-2992-466b-a2b5-5afbf38faf36)
 
 ### 📦 Requirements
 Make sure Python 3 and pip are installed:
