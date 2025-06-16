@@ -18,7 +18,7 @@ Plex Poster Exporter is a lightweight Windows GUI tool that allows you to automa
 
 > [!CAUTION]
 > This was made for windows users as I do not have linux experience
-> I have ru  this for myself andd have had no issues , I do no take responsibilty if you lose artwork , test this first on a test library if you feel the need
+> I have run  this for myself and have had no issues , I do no take responsibilty if you lose artwork , test this first on a test library if you feel the need
 
 ![image](https://github.com/user-attachments/assets/4c310022-1849-4781-8e5b-d7d15a995d99)
 
