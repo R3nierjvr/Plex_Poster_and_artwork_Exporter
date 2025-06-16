@@ -153,7 +153,7 @@ pip3 install plexapi requests
    
 bash
 ```
-git clone -b git  v1.0.0-Linux --single-branch https://github.com/R3nierjvr/Plex_Poster_and_artwork_Exporter.git
+git clone  -b Linux --single-branch https://github.com/R3nierjvr/Plex_Poster_and_artwork_Exporter.git
 cd Plex_Poster_and_artwork_Exporter
 ```
 
